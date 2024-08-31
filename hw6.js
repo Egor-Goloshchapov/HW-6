@@ -31,6 +31,30 @@ for (let i = 0; i < 11; i++) {
     } else {
         console.log(i);
     }
+}  
+
+
+
+let nums = [1, 2, 3, 7, 4, 5];
+let n = 4;
+for (let i = 0; i < nums.length; i++) {
+    if (nums[i] >= n) {
+        break;
+    }
+    console.log(nums[i]);
+}
+
+
+
+let num = 0;
+while (num < 20) {
+    num += 1;
+    console.log(num)
+if (num % 3 !== 0) {
+    continue;
+} else {
+    console.log(num)
+}
 }
 
 
